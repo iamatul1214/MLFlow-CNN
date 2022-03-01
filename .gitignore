@@ -42,4 +42,4 @@ mlruns/
 
 ## Source data
 data.zip
-logs/running_logs.log
+Logs/running_logs.log
