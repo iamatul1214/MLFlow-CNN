@@ -1,0 +1,50 @@
+[2022-03-01 20:38:28,505: INFO: stage_00_template]: 
+********************
+[2022-03-01 20:38:28,506: INFO: stage_00_template]: >>>>> stage STAGE_NAME started <<<<<
+[2022-03-01 20:38:28,514: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-01 20:38:28,516: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-03-01 20:38:28,516: INFO: stage_00_template]: >>>>> stage STAGE_NAME completed!<<<<<
+
+[2022-03-01 20:45:20,956: INFO: stage_00_template]: 
+********************
+[2022-03-01 20:45:20,956: INFO: stage_00_template]: >>>>> stage STAGE_NAME started <<<<<
+[2022-03-01 20:45:20,960: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-01 20:45:20,961: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-03-01 20:45:20,961: INFO: stage_00_template]: >>>>> stage STAGE_NAME completed!<<<<<
+
+[2022-03-01 20:46:05,614: INFO: stage_00_template]: 
+********************
+[2022-03-01 20:46:05,615: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
+[2022-03-01 20:46:05,618: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-01 20:46:05,619: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-03-01 20:46:05,619: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
+
+[2022-03-01 20:47:19,058: INFO: stage_00_template]: 
+********************
+[2022-03-01 20:47:19,058: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
+[2022-03-01 20:47:19,061: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-01 20:47:19,061: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-03-01 20:47:19,062: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
+
+[2022-03-01 20:47:39,838: INFO: stage_00_template]: 
+********************
+********************
+********************
+[2022-03-01 20:47:39,838: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
+[2022-03-01 20:47:39,841: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-01 20:47:39,841: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-03-01 20:47:39,841: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
+
+[2022-03-01 20:48:16,439: INFO: stage_00_template]: ************************************************************
+[2022-03-01 20:48:16,440: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
+[2022-03-01 20:48:16,442: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-01 20:48:16,443: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-03-01 20:48:16,443: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
+
+[2022-03-01 20:49:00,608: INFO: stage_00_template]: 
+********************
+[2022-03-01 20:49:00,608: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
+[2022-03-01 20:49:00,611: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-01 20:49:00,611: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-03-01 20:49:00,612: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
+

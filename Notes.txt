@@ -1,0 +1,12 @@
+This is a text file which will be used to store some information and can be used in future to understand some decisions regarding this project.
+
+
+Step 1
+----------------------
+----------------------
+Whenever we create a project, we create the enviornment, activate the enviornment, install all the requirements and etc.
+We perform all these one by one. But we have another option from where we can create an init_setup.sh file which a bash script file
+which can store all the above commands and can execute all the commands at once. So we just need to execute the bash file and all the
+commands like creating enviornment, activating and installing requirements will be done at once only.
+
+Remember, since we have setup.py so we need to install the src package explicitly by "pip install -e . "

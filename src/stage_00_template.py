@@ -7,7 +7,7 @@ from src.utils.common import read_yaml, create_directories
 import random
 
 
-STAGE = "STAGE_NAME" ## <<< change stage name 
+STAGE = "Sample_Stage" ## <<< change stage name 
 
 logging.basicConfig(
     filename=os.path.join("logs", 'running_logs.log'), 
@@ -38,3 +38,4 @@ if __name__ == '__main__':
     except Exception as e:
         logging.exception(e)
         raise e
+
