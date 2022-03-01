@@ -10,3 +10,10 @@ which can store all the above commands and can execute all the commands at once.
 commands like creating enviornment, activating and installing requirements will be done at once only.
 
 Remember, since we have setup.py so we need to install the src package explicitly by "pip install -e . "
+
+Step 2
+-------------------------------
+-------------------------------
+We are using MLproject file so that the entry points mentioned there can be executed directly. Commands use for that
+can be ---> mlflow run . -e get_data --no-conda       ## We use no conda when we don't want another mlflow to be installed on our enviornment
+ if we want mlflow to be installed on our enviornment then we don't use no conda command.
