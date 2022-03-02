@@ -1,50 +1,24 @@
-[2022-03-01 20:38:28,505: INFO: stage_00_template]: 
-********************
-[2022-03-01 20:38:28,506: INFO: stage_00_template]: >>>>> stage STAGE_NAME started <<<<<
-[2022-03-01 20:38:28,514: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-03-01 20:38:28,516: INFO: common]: yaml file: params.yaml loaded successfully
-[2022-03-01 20:38:28,516: INFO: stage_00_template]: >>>>> stage STAGE_NAME completed!<<<<<
+[2022-03-02 21:30:47,685: INFO: stage_01_get_data]: 
+**********************************************************************************************************
+[2022-03-02 21:30:47,685: INFO: stage_01_get_data]: >>>>> stage Get_Data started <<<<<
+[2022-03-02 21:30:47,687: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-02 21:30:47,688: INFO: common]: created directory at: data
+[2022-03-02 21:30:47,688: INFO: stage_01_get_data]: Checking for source data availability in the local already
+[2022-03-02 21:30:47,688: INFO: stage_01_get_data]: Downloading of the source data started....
+[2022-03-02 21:34:08,931: INFO: stage_01_get_data]: filename : data\data.zip created with info 
+Content-Type: application/octet-stream
+Accept-Ranges: bytes
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-blob-content-md5: l2WJyK3tt5/f2azyQ9eE8w==
+Last-Modified: Sat, 13 Oct 2018 12:14:22 GMT
+ETag: "0x8D6310568FD1DF6"
+Content-Length: 824894548
+Date: Wed, 02 Mar 2022 16:00:48 GMT
+Connection: close
 
-[2022-03-01 20:45:20,956: INFO: stage_00_template]: 
-********************
-[2022-03-01 20:45:20,956: INFO: stage_00_template]: >>>>> stage STAGE_NAME started <<<<<
-[2022-03-01 20:45:20,960: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-03-01 20:45:20,961: INFO: common]: yaml file: params.yaml loaded successfully
-[2022-03-01 20:45:20,961: INFO: stage_00_template]: >>>>> stage STAGE_NAME completed!<<<<<
 
-[2022-03-01 20:46:05,614: INFO: stage_00_template]: 
-********************
-[2022-03-01 20:46:05,615: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
-[2022-03-01 20:46:05,618: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-03-01 20:46:05,619: INFO: common]: yaml file: params.yaml loaded successfully
-[2022-03-01 20:46:05,619: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
-
-[2022-03-01 20:47:19,058: INFO: stage_00_template]: 
-********************
-[2022-03-01 20:47:19,058: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
-[2022-03-01 20:47:19,061: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-03-01 20:47:19,061: INFO: common]: yaml file: params.yaml loaded successfully
-[2022-03-01 20:47:19,062: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
-
-[2022-03-01 20:47:39,838: INFO: stage_00_template]: 
-********************
-********************
-********************
-[2022-03-01 20:47:39,838: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
-[2022-03-01 20:47:39,841: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-03-01 20:47:39,841: INFO: common]: yaml file: params.yaml loaded successfully
-[2022-03-01 20:47:39,841: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
-
-[2022-03-01 20:48:16,439: INFO: stage_00_template]: ************************************************************
-[2022-03-01 20:48:16,440: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
-[2022-03-01 20:48:16,442: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-03-01 20:48:16,443: INFO: common]: yaml file: params.yaml loaded successfully
-[2022-03-01 20:48:16,443: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
-
-[2022-03-01 20:49:00,608: INFO: stage_00_template]: 
-********************
-[2022-03-01 20:49:00,608: INFO: stage_00_template]: >>>>> stage Sample_Stage started <<<<<
-[2022-03-01 20:49:00,611: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-03-01 20:49:00,611: INFO: common]: yaml file: params.yaml loaded successfully
-[2022-03-01 20:49:00,612: INFO: stage_00_template]: >>>>> stage Sample_Stage completed!<<<<<
+[2022-03-02 21:34:08,959: INFO: common]: created directory at: data
+[2022-03-02 21:34:08,959: INFO: common]: extraction started...
+[2022-03-02 21:35:22,850: INFO: common]: extracted data\data.zip to the data
+[2022-03-02 21:35:22,859: INFO: stage_01_get_data]: >>>>> stage Get_Data completed!<<<<<
 

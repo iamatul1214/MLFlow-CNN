@@ -17,3 +17,8 @@ Step 2
 We are using MLproject file so that the entry points mentioned there can be executed directly. Commands use for that
 can be ---> mlflow run . -e get_data --no-conda       ## We use no conda when we don't want another mlflow to be installed on our enviornment
  if we want mlflow to be installed on our enviornment then we don't use no conda command.
+
+ Step 3
+ ----------------------------------
+ ----------------------------------
+ We will use unzipping function in common.py as it is quite common utility.

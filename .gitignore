@@ -42,4 +42,6 @@ mlruns/
 
 ## Source data
 data.zip
-Logs/running_logs.log
+running_logs.log
+PetImages/*
+data/*
