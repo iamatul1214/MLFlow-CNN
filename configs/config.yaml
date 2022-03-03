@@ -7,3 +7,10 @@ data:
   unzip_data_dir: input_images            ## In future if we want we can store the extracted data in some other location.
   bad_data_dir: bad_data
   parent_data_dir: PetImages
+
+  Params:
+    learning_rate: 0.01
+    img_shape: [180,180,3]     ## we have to use in square brackets and then convert them into the tuple while reading those in base creation
+    loss: sparse_categorical_entropy
+    metrics: ["accuracy"]
+    
