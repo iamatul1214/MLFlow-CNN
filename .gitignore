@@ -45,3 +45,5 @@ data.zip
 running_logs.log
 PetImages/*
 data/*
+bad_data
+input_images

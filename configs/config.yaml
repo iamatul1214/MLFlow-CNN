@@ -4,4 +4,6 @@ data:
   url: "https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_3367a.zip"
   local_dir: data
   data_file: data.zip
-  unzip_data_dir: data             ## In future if we want we can store the extracted data in some other location.
+  unzip_data_dir: input_images            ## In future if we want we can store the extracted data in some other location.
+  bad_data_dir: bad_data
+  parent_data_dir: PetImages

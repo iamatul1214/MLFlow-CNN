@@ -6,6 +6,7 @@ import logging
 from src.utils.common import read_yaml, create_directories, unzip_file
 import random
 import urllib.request as req
+from src.utils.data_mgmt import validate_image
 
 
 STAGE = "Get_Data" ## <<< change stage name 
@@ -47,6 +48,8 @@ def main(config_path):
         unzip_file(source=data_file_path, dest=unzip_data_dir)
     else:
         logging.info("data extracted successfully")
+
+    validate_image(config)
 
 
 if __name__ == '__main__':
