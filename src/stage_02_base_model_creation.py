@@ -4,6 +4,7 @@ import shutil
 from tqdm import tqdm
 import logging
 from src.utils.common import read_yaml, create_directories
+from src.utils.model import log_model_summary
 import random
 import tensorflow as tf
 
@@ -22,6 +23,8 @@ def main(config_path):
     ## read config files
     config = read_yaml(config_path)
     params=config["params"]
+
+    logging.info(f"layers for the model defined")
     LAYERS = [
     tf.keras.layers.Input(tuple(params["img_shape"])),
     tf.keras.layers.Conv2D(32, (3,3), activation="relu"),
@@ -35,14 +38,25 @@ def main(config_path):
 
     classifier = tf.keras.Sequential(LAYERS)
 
-    classifier.summary()
+    logging.info(f"Base model summary :\n {log_model_summary(classifier)}")
+    # classifier.summary()
 
     classifier.compile(
     optimizer=tf.keras.optimizers.Adam(params["learning_rate"]),
     loss=params["loss"],
     metrics=params["metrics"]
 )
-    
+
+##Saving the model in model directory
+
+    model_dir_path=os.path.join(config["data"]["local_dir"],
+                            config["data"]["model_dir_path"])
+
+    create_directories([model_dir_path])
+
+    model_name=os.path.join(model_dir_path,config["data"]["init_model_name"])
+    classifier.save(model_name)
+    logging.info(f"Saved the model {model_name} into {model_dir_path} successfully")    
 
 
 if __name__ == '__main__':
