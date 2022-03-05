@@ -10,6 +10,10 @@ import mlflow
 
 STAGE = "MAIN" ## <<< change stage name 
 
+create_directories(["logs"])
+with open(os.path.join("logs","running_logs.log"), "w") as f:
+    f.write(" ")
+
 logging.basicConfig(
     filename=os.path.join("logs", 'running_logs.log'), 
     level=logging.INFO, 
@@ -23,6 +27,7 @@ def main():
         mlflow.run(".", "get_data", use_conda=False)
   #     mlflow.run(".","get_data", ""parameters={},use_conda=False)      We can use paramters as well
         mlflow.run(".","base_model_creation", use_conda=False)
+        mlflow.run(".","training", use_conda=False)
 
 
 
